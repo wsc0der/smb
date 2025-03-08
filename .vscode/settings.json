@@ -1,4 +1,5 @@
 {
-  "editor.insertSpaces": false,
-  "editor.tabSize": 4
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
+  "godotTools.editorPath.godot4": "/Users/wshuang/Documents/Git/godot/bin/godot_macos_editor.app"
 }

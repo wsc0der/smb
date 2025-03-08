@@ -1,6 +1,6 @@
 [gd_scene load_steps=32 format=3 uid="uid://cbbuditkrn656"]
 
-[ext_resource type="Script" path="res://characters/player.gd" id="1_a1ce6"]
+[ext_resource type="Script" uid="uid://cdssj5eg0ukog" path="res://characters/player.gd" id="1_a1ce6"]
 [ext_resource type="Texture2D" uid="uid://cmwbahwwch8ro" path="res://assets/sprites/mario_small.png" id="2_gatvr"]
 [ext_resource type="Texture2D" uid="uid://bdu8qwbxsamiv" path="res://assets/sprites/mario_big.png" id="3_wo87p"]
 [ext_resource type="Texture2D" uid="uid://culctsxgkirf" path="res://assets/sprites/mario_grow.png" id="4_f3wyq"]
@@ -244,7 +244,7 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hjf8o"]
 _data = {
-"transition": SubResource("Animation_6ungc")
+&"transition": SubResource("Animation_6ungc")
 }
 
 [node name="Player" type="CharacterBody2D"]
@@ -305,7 +305,7 @@ disabled = true
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath("../SmallSprite")
 libraries = {
-"": SubResource("AnimationLibrary_hjf8o")
+&"": SubResource("AnimationLibrary_hjf8o")
 }
 
 [connection signal="area_entered" from="Hitbox" to="." method="_on_hitbox_area_entered"]

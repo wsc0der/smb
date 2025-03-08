@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://df00q74jhgta4"]
 
 [ext_resource type="SpriteFrames" uid="uid://d1emq3qdnue2i" path="res://blocks/question_block_frames_overworld.tres" id="2_72mot"]
-[ext_resource type="Script" path="res://blocks/question_block.gd" id="2_jpxdx"]
+[ext_resource type="Script" uid="uid://mn1p7n571wp4" path="res://blocks/question_block.gd" id="2_jpxdx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4bs6b"]
 size = Vector2(16, 16)
